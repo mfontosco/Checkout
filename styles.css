@@ -1,0 +1,113 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.main{
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 950px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.submain{
+    border-radius: 4px;
+    border: 1px solid black;
+    height: 500px;
+    width:930px ;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+.top{
+    background-color:#FFFFFF;
+    height: 45%;
+    width: 80%;
+    margin-left: 95px;
+    padding: 20px;
+
+    border: thin 1px;
+    
+}
+.bottom{
+    background-color: #FFFFFF;
+    height:45% ;
+    width: 80%;
+    margin-left: 95px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 10px;
+}
+td{
+    margin-top: 5px;
+}
+h1{
+    text-align: left;
+}
+td{
+    color: #8D8088;;
+}
+.card{
+    width: 50%;
+    height: 30px;
+    border-radius: 4px;
+    }
+label{
+    text-align: left;
+    justify-items: left;
+    }
+.last{
+    position: absolute;
+    right: 220px;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+label{
+    display: block;
+}
+.cardholder{
+    height: 30px;
+    width: 450px;
+    margin-right: 20px;
+}
+.month{
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+.year{
+    height: 30px;
+    width: 100px;
+    margin-right: 20px; 
+}
+.cardnumber{
+    height: 30px;
+    width: 400px;
+    margin-right: 20px;  
+}
+.cvc{
+    height: 30px;
+    width: 300px;
+    margin-right: 20px; 
+}
+button{
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    background-color: #427EFB;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
